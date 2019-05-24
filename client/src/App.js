@@ -13,7 +13,7 @@ function App() {
         <NavBar />
         <Carousel />
           <Images />
-	<Datadisplay />
+	{/* <Datadisplay /> */}
       </BrowserRouter>
     </div>
   );
