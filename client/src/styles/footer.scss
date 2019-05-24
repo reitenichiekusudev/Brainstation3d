@@ -1,0 +1,19 @@
+@import "./master";
+
+.footer {
+    height: 130px;
+    background-color: #238189;
+
+    &__wrapper {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        font-family: $font-poppins-thin;
+    }
+
+    &__wrapper img {
+        height: 2rem;
+    }
+}
