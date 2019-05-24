@@ -32,3 +32,16 @@
         color: #144c51
     }
 }
+
+.charts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.charts img {
+    margin: 5rem 0;
+    width: 798px;
+}

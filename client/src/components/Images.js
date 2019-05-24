@@ -4,6 +4,9 @@ import img1 from '../images/isaac-smith-1182056-unsplash@3x.jpg';
 import img2 from '../images/maddi-bazzocco-1178337-unsplash@3x.jpg';
 import img3 from '../images/thought-catalog-214785-unsplash@3x.jpg';
 import '../styles/images.scss';
+import img4 from '../images/Avg backers (1).png';
+import img5 from '../images/Avgraised (1).png';
+import img6 from '../images/most successful sub category.png';
 
 
 export class Images extends Component {
@@ -29,6 +32,11 @@ export class Images extends Component {
                             Choose an achievable timeline
                         </p>
                     </div>
+                </div>
+                <div className="charts">
+                    <img src={img4} alt="img3" />
+                    <img src={img5} alt="img3" />
+                    <img src={img6} alt="img3" />
                 </div>
             </div>
         )
