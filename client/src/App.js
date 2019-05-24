@@ -6,10 +6,9 @@ import './styles/_master.scss';
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
-          <NavBar />
-    </BrowserRouter>
-
+      <BrowserRouter>
+            <NavBar />
+      </BrowserRouter>
     </div>
   );
 }
