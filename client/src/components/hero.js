@@ -6,18 +6,16 @@ import { Carousel } from 'react-responsive-carousel';
 export default class HeroCarousel extends Component {
 	render(){
 		return(
-			<Carousel showThumbs={false}>
+			<Carousel showThumbs={false} showStatus={false}>
 			                <div>
 			                    <img src={require("../assets/jakob-owens-518866-unsplash.jpg")} />
-			                    <p className="legend">Legend 1</p>
+						<p >Legend 1</p>
 			                </div>
 			                <div>
 			                    <img src={require("../assets/jakob-owens-518866-unsplash.jpg")} />
-			                    <p className="legend">Legend 2</p>
 			                </div>
 			                <div>
 			                    <img src={require("../assets/jakob-owens-518866-unsplash.jpg")} />
-			                    <p className="legend">Legend 3</p>
 			                </div>
 		    </Carousel>
 		);
