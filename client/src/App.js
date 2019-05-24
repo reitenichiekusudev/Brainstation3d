@@ -1,9 +1,10 @@
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Carousel from "./components/hero.js";
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Carousel from './components/hero.js';
 import Datadisplay from "./components/datadisplays.js";
-import "./styles/_master.scss";
+import Images from './components/Images.js';
+import './styles/_master.scss';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Carousel />
+          <Images />
 	<Datadisplay />
       </BrowserRouter>
     </div>
