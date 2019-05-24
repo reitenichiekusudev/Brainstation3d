@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Carousel from './components/hero.js';
+import './styles/_master.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <BrowserRouter>
+          <NavBar />
+	  <Carousel />
+    </BrowserRouter>
 
-        <a
-          className="App-link"
-          href={`http://localhost:8080/ping`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Local Express Server ping
-        </a>
-      </header>
     </div>
   );
 }
