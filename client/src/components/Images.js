@@ -7,6 +7,7 @@ import '../styles/images.scss';
 import img4 from '../images/Avg backers (1).png';
 import img5 from '../images/Avgraised (1).png';
 import img6 from '../images/most successful sub category.png';
+import img7 from '../images/fashion success proportion.png';
 
 
 export class Images extends Component {
@@ -37,6 +38,7 @@ export class Images extends Component {
                     <img src={img4} alt="img3" />
                     <img src={img5} alt="img3" />
                     <img src={img6} alt="img3" />
+                    <img src={img7} alt="img3" />
                 </div>
             </div>
         )
