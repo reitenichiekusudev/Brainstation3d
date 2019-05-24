@@ -8,14 +8,16 @@ export default class HeroCarousel extends Component {
 		return(
 			<Carousel showThumbs={false} showStatus={false}>
 			                <div>
-			                    <img src={require("../assets/jakob-owens-518866-unsplash.jpg")} />
-						<p >Legend 1</p>
+			                    <img src={require("../images/hero-image@3x.jpg")} />
+			                    <p className="legend">Legend 1</p>
 			                </div>
 			                <div>
-			                    <img src={require("../assets/jakob-owens-518866-unsplash.jpg")} />
+			                    <img src={require("../images/hero-image@3x.jpg")} />
+			                    <p className="legend">Legend 2</p>
 			                </div>
 			                <div>
-			                    <img src={require("../assets/jakob-owens-518866-unsplash.jpg")} />
+			                    <img src={require("../images/hero-image@3x.jpg")} />
+			                    <p className="legend">Legend 3</p>
 			                </div>
 		    </Carousel>
 		);
