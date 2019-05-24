@@ -18,11 +18,21 @@ export class NavBar extends Component {
                                 <img src={logo} alt="BandSite logo" className="nav__logo" />
                             </Link>
                             <ul className="nav__links">
+                                
                                 <Link to="/">
-                                    <li className="nav__links-login" >Login</li>
+                                    <li className="nav__links-trending">Trending</li>
                                 </Link>
                                 <Link to="/">
-                                    <button>Get Started</button>
+                                    <li className="nav__links-pricing">Pricing</li>
+                                </Link>
+                                <Link to="/">
+                                    <li className="nav__links-about">About</li>
+                                </Link>
+                                <Link to="/">
+                                    <li className="nav__links-learn">Learn</li>
+                                </Link>
+                                <Link to="/">
+                                    <li className="nav__links-login" >Login</li>
                                 </Link>
                             </ul>
                         </div>
