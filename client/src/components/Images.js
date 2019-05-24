@@ -35,10 +35,10 @@ export class Images extends Component {
                     </div>
                 </div>
                 <div className="charts">
+                    <img src={img7} alt="img3" />
                     <img src={img4} alt="img3" />
                     <img src={img5} alt="img3" />
                     <img src={img6} alt="img3" />
-                    <img src={img7} alt="img3" />
                 </div>
             </div>
         )
