@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/kickfluencer_logo.svg';
+import logo from '../images/kickfleuncer_logo.png';
 import '../styles/navbar.scss';
 
 export class NavBar extends Component {
@@ -18,10 +18,10 @@ export class NavBar extends Component {
                                 <img src={logo} alt="BandSite logo" className="nav__logo" />
                             </Link>
                             <ul className="nav__links">
-                                <Link to="/inventory">
+                                <Link to="/">
                                     <li className="nav__links-login" >Login</li>
                                 </Link>
-                                <Link to="/locations">
+                                <Link to="/">
                                     <button>Get Started</button>
                                 </Link>
                             </ul>
