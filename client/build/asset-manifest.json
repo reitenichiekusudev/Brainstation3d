@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Brainstation3d/static/css/main.6ea58ad8.chunk.css",
+    "main.js": "/Brainstation3d/static/js/main.8f92ca7c.chunk.js",
+    "main.js.map": "/Brainstation3d/static/js/main.8f92ca7c.chunk.js.map",
+    "runtime~main.js": "/Brainstation3d/static/js/runtime~main.7696cbbf.js",
+    "runtime~main.js.map": "/Brainstation3d/static/js/runtime~main.7696cbbf.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/Brainstation3d/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.77e10432.chunk.js": "/Brainstation3d/static/js/2.77e10432.chunk.js",
+    "static/js/2.77e10432.chunk.js.map": "/Brainstation3d/static/js/2.77e10432.chunk.js.map",
+    "index.html": "/Brainstation3d/index.html",
+    "precache-manifest.1f06dbe30325a09eb56a93494c1e00ab.js": "/Brainstation3d/precache-manifest.1f06dbe30325a09eb56a93494c1e00ab.js",
+    "service-worker.js": "/Brainstation3d/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/Brainstation3d/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.6ea58ad8.chunk.css.map": "/Brainstation3d/static/css/main.6ea58ad8.chunk.css.map",
+    "static/media/_master.scss": "/Brainstation3d/static/media/Poppins-SemiBold.5bb31283.ttf",
+    "static/media/Avg backers (1).png": "/Brainstation3d/static/media/Avg backers (1).ff37396e.png",
+    "static/media/Avgraised (1).png": "/Brainstation3d/static/media/Avgraised (1).aebf4f40.png",
+    "static/media/fashion success proportion.png": "/Brainstation3d/static/media/fashion success proportion.cdbd1b4d.png",
+    "static/media/hero-image@3x.jpg": "/Brainstation3d/static/media/hero-image@3x.f2b6813a.jpg",
+    "static/media/isaac-smith-1182056-unsplash@3x.jpg": "/Brainstation3d/static/media/isaac-smith-1182056-unsplash@3x.0102ea24.jpg",
+    "static/media/kickfleuncer_logo.png": "/Brainstation3d/static/media/kickfleuncer_logo.322606b4.png",
+    "static/media/maddi-bazzocco-1178337-unsplash@3x.jpg": "/Brainstation3d/static/media/maddi-bazzocco-1178337-unsplash@3x.bdde3387.jpg",
+    "static/media/most successful sub category.png": "/Brainstation3d/static/media/most successful sub category.fc03e3fc.png",
+    "static/media/thought-catalog-214785-unsplash@3x.jpg": "/Brainstation3d/static/media/thought-catalog-214785-unsplash@3x.12cbbf84.jpg"
+  }
+}
